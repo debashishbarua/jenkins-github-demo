@@ -16,5 +16,10 @@ public class JenkinsGithubDemoApplication {
 	public String sayHelllo() {
 		return "Helllo.....";
 	}
+	
+	@GetMapping("/v1/hello")
+	public String sayHellloV1() {
+		return "Helllo.....";
+	}
 
 }
